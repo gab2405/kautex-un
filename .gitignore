@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+package.json
+.idea/kautex-coex.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea
+.idea
+.DS_Store
