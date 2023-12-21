@@ -783,6 +783,9 @@
     top: 19%;
     color: var(--color-white);
     font-size: 2.8em;
+    &.--smaller {
+      font-size: 2.4em;
+    }
   }
 
   .text {
@@ -853,7 +856,8 @@
   }
 
   .vehicle-text {
-    font-size: 1.5em;
+    font-size: 1.35em;
+    font-weight: 400;
   }
   .arrow.--right {
     top: 90%;
@@ -1016,6 +1020,10 @@
     left: 9%;
     max-width: 55%;
     font-weight: 600;
+
+    &.--lower {
+      top: 69.5%;
+    }
   }
 
   .picto {
@@ -1074,6 +1082,10 @@
     color: var(--color-white);
     left: 60%;
     top: 78%;
+
+    a {
+      color: var(--color-white);
+    }
   }
 }
 
@@ -1156,6 +1168,9 @@
     &.--t4 {
       min-width: 45%;
     }
+    &.--t2 {
+      min-width: 35%;
+    }
   }
   .label-wrap {
     top: 76%;
@@ -1166,6 +1181,10 @@
 
     .color-blue {
       color: var(--color-blue);
+    }
+    .color-white {
+      color: var(--color-white);
+      font-weight: 400;
     }
   }
   .circle-text {
@@ -1195,6 +1214,10 @@
 .--b10 {
   left: 50%;
   top: 0;
+
+  .arrow.--down {
+    left: 95%;
+  }
 
   .heading {
     color: var(--color-white);

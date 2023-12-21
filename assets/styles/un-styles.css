@@ -677,6 +677,9 @@
   color: var(--color-white);
   font-size: 2.8em;
 }
+.--b02 .heading.--smaller {
+  font-size: 2.4em;
+}
 .--b02 .text {
   left: var(--align-left);
   top: 33%;
@@ -734,7 +737,8 @@
   height: 40%;
 }
 .--b04 .vehicle-text {
-  font-size: 1.5em;
+  font-size: 1.35em;
+  font-weight: 400;
 }
 .--b04 .arrow.--right {
   top: 90%;
@@ -874,6 +878,9 @@
   max-width: 55%;
   font-weight: 600;
 }
+.--b06 .sign-text.--lower {
+  top: 69.5%;
+}
 .--b06 .picto {
   width: 15%;
   top: 62%;
@@ -923,6 +930,9 @@
   color: var(--color-white);
   left: 60%;
   top: 78%;
+}
+.--b08 .text a {
+  color: var(--color-white);
 }
 
 .--b09 {
@@ -1001,6 +1011,9 @@
 .--b09 .table.--t4 {
   min-width: 45%;
 }
+.--b09 .table.--t2 {
+  min-width: 35%;
+}
 .--b09 .label-wrap {
   top: 76%;
   left: 49.5%;
@@ -1010,6 +1023,10 @@
 }
 .--b09 .label-text .color-blue {
   color: var(--color-blue);
+}
+.--b09 .label-text .color-white {
+  color: var(--color-white);
+  font-weight: 400;
 }
 .--b09 .circle-text {
   aspect-ratio: 1;
@@ -1037,6 +1054,9 @@
 .--b10 {
   left: 50%;
   top: 0;
+}
+.--b10 .arrow.--down {
+  left: 95%;
 }
 .--b10 .heading {
   color: var(--color-white);
