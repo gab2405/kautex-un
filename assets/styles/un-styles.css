@@ -834,6 +834,9 @@
   left: 9%;
   max-width: 34%;
 }
+.--b06 .text.--narrow {
+  max-width: 33%;
+}
 .--b06 .text.--t1, .--b06 .text.--t3 {
   color: var(--color-white);
   font-weight: 400;
@@ -939,6 +942,9 @@
   left: 0;
   top: 0;
 }
+.--b09 .arrow.--right {
+  top: 68%;
+}
 .--b09 .heading {
   color: var(--color-white);
   font-size: 2.4em;
@@ -1027,6 +1033,9 @@
 .--b09 .label-text .color-white {
   color: var(--color-white);
   font-weight: 400;
+}
+.--b09 .label-text .color-white.--smaller {
+  font-size: 0.85em;
 }
 .--b09 .circle-text {
   aspect-ratio: 1;
@@ -1140,6 +1149,9 @@
 .--b10 .label-text .color-white {
   color: var(--color-white);
   font-weight: 400;
+}
+.--b10 .label-text .color-white.--smaller {
+  font-size: 0.85em;
 }
 .--b10 .circle-text {
   aspect-ratio: 1;
