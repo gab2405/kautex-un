@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+<body>
+
+
+<!-- start include banner script on any part of the website -->
+
+<template id="BannerCoExTemplate">
+    <link rel="stylesheet" href="/assets/styles/un-styles.css">
+    <script src="/assets/scripts/un-scripts.js" type="module" defer></script>
+    <link rel="preload" as="image" href="/assets/img/UN_Seq01_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq02_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq03_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq04_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq05_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq06_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq07_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq08_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq09_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq10_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq11_HG.png">
+    <link rel="preload" as="image" href="/assets/img/UN_Seq12_HG.png">
+    <div class="banner-container">
+        <div class="banner-wrapper --current--b01">
+            <div class="banner-track">
+                <div class="banner --b01 visible">
+                    <img src="/assets/img/UN_Seq01_HG.png" alt="background" class="background-img">
+                    <h1 class="heading anim --fade --s01">RATGEBER<span class="heading-dash">_</span></h1>
+                    <h2 class="subheading anim --fade --s02">zu UN-Verpackungen</h2>
+                    <p class="text anim --fade --s03">Wann müssen<br/>UN-Verpackungen eingesetzt werden?</p>
+                    <div class="arrow --right ">
+                        <div class="arrow-hover-wrap" data-target="--b02">
+                            <img src="/assets/img/Arrow_Right_CoEx.png" alt="Next" class="anim --fade-right --s04">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b02">
+                    <img src="/assets/img/UN_Seq02_HG.png" alt="background" class="background-img">
+                    <img src="/assets/img/UN_Sequenz02/UN_Seq02_Hammer00.svg" alt="Hammer"
+                         class="hammer --h1 anim --scale-left --s01">
+                    <img src="/assets/img/UN_Sequenz02/UN_Seq02_Hammer01.svg" alt="Hammer"
+                         class="hammer --h2 anim --hammer --s02">
+                    <h1 class="heading">§ 2 Gefahrgutbeförderungsgesetz</h1>
+                    <p class="text anim --fade --s05">
+                        Gefahrgut sind alle Stoffe und Gegenstände,
+                        die durch ihre Eigenschaften, oder durch den Transport ausgelösten Zustand, eine Gefahr für die
+                        öffentliche Sicherheit, Ordnung oder Gesund&shy;heit von Menschen und/oder Tieren darstellen.
+                    </p>
+                    <div class="arrow --down ">
+                        <div class="arrow-hover-wrap" data-target="--b03">
+                            <img src="/assets/img/Arrow_Down_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b03">
+                    <img src="/assets/img/UN_Seq03_HG.png" alt="background" class="background-img">
+                    <h2 class="heading anim --fade --s01">
+                        UN-Zulassungen regeln<br/>
+                        den länderübergreifenden Transport von Gefahrgütern.
+                    </h2>
+                    <img src="/assets/img/UN_Sequenz03/UN_Seq03_LKW.svg" alt="truck"
+                         class="truck anim --enter-from-left --s02">
+                    <div class="arrow --up ">
+                        <div class="arrow-hover-wrap" data-target="--b04">
+                            <img src="/assets/img/Arrow_Up_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b04">
+                    <img src="/assets/img/UN_Seq04_HG.png" alt="background" class="background-img">
+                    <h2 class="heading anim --fade --s01">Es gelten separate Regelungen für verschiedenen
+                        Transportwege.</h2>
+                    <div class="vehicles-wrap">
+                        <div class="vehicle-wrap anim --fade-left --s02">
+                            <img src="/assets/img/UN_Sequenz04/UN_Seq04_ADR_LKW.svg" alt="LKW" class="vehicle">
+                            <p class="vehicle-text">ADR<br/>Gefahrguttransport<br/>auf Straßen</p>
+                        </div>
+                        <div class="vehicle-wrap anim --fade-left --s03">
+                            <img src="/assets/img/UN_Sequenz04/UN_Seq04_RID_Zug.svg" alt="Zug" class="vehicle">
+                            <p class="vehicle-text">RID<br/>Gefahrguttransport<br/>auf Schienen</p>
+                        </div>
+                        <div class="vehicle-wrap anim --fade-left --s04">
+                            <img src="/assets/img/UN_Sequenz04/UN_Seq04_ADN_Schiff.svg" alt="Schiff" class="vehicle">
+                            <p class="vehicle-text">ADN<br/>Gefahrguttransport auf<br/>Binnenwasserstraßen</p>
+                        </div>
+                        <div class="vehicle-wrap anim --fade-left --s05">
+                            <img src="/assets/img/UN_Sequenz04/UN_Seq04_IATA_Flugzeug.svg" alt="Flugzeug" class="vehicle">
+                            <p class="vehicle-text">IATA<br/>Gefahrguttransport<br/>im Luftverkehr</p>
+                        </div>
+                    </div>
+                    <div class="arrow --right ">
+                        <div class="arrow-hover-wrap" data-target="--b05">
+                            <img src="/assets/img/Arrow_Right_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b05">
+                    <img src="/assets/img/UN_Seq05_HG.png" alt="background" class="background-img">
+                    <h2 class="heading">Die Gefahrgutklassen</h2>
+
+                    <div class="items-wrap --h1 --i1 anim --fade --s01">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/01_Dangclass1.svg">
+                            <p>
+                                Klasse 1<br/>
+                                Explosiv
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h3 --i2 anim --fade --s02">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/02a_DOT_hazmat_class_2.1.svg">
+                            <p>
+                                Klasse 2<br/>
+                                Entzündbare Gase
+                            </p>
+                        </div>
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/02b_DOT_hazmat_class_2.2.svg">
+                            <p>
+                                Klasse 2<br/>
+                                Nicht Entzündbare Gase
+                            </p>
+                        </div>
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/02c_DOT_hazmat_class_2.3_-_(Alt_2).svg">
+                            <p>
+                                Klasse 2<br/>
+                                Klasse 2 Giftige Gase
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h1 --i3 anim --fade --s03">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/03_Label_for_dangerous_goods_-_class_3.svg">
+                            <p>
+                                Klasse 3<br/>
+                                Entzündbare flüssige Stoffe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h3 --i4 anim --fade --s04">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/04a_DOT_hazmat_class_4.1.svg">
+                            <p>
+                                Klasse 4.1<br/>
+                                Entzündbare feste Stoffe
+                            </p>
+                        </div>
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/04b_DOT_hazmat_class_4.2.svg">
+                            <p>
+                                Klasse 4.2<br/>
+                                Selbstent&shy;zündliche Stoffe
+                            </p>
+                        </div>
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/04c_Label_for_dangerous_goods_-_class_4.3.svg">
+                            <p>
+                                Klasse 4.3<br/>
+                                In Verbindung mit Wasser entzündlich
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h2 --i5 anim --fade --s05">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/05a_DOT_hazmat_class_5.1.svg">
+                            <p>
+                                Klasse 5.1<br/>
+                                Brandfördernd
+                            </p>
+                        </div>
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/05a_DOT_hazmat_class_5.1.svg">
+                            <p>
+                                Klasse 5.2<br/>
+                                Organische Peroxide
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h2 --i6 anim --fade --s06">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/06aDangclass6_1.svg">
+                            <p>
+                                Klasse 6.1<br/>
+                                Giftige Stoffe
+                            </p>
+                        </div>
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/06b_Dangclass6_2.svg">
+                            <p>
+                                Klasse 6.2<br/>
+                                Ansteckungs- gefährliche Stoffe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h1 --i7 anim --fade --s07">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/07_ADR_7A.svg">
+                            <p>
+                                Klasse 7<br/>
+                                Radioaktive Stoffe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h1 --i8 anim --fade --s08">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/08_Danger-class-8.svg">
+                            <p>
+                                Klasse 8<br/>
+                                Ätzende Stoffe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h2 --i9 anim --fade --s09">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/09a_Dangclass9.svg">
+                            <p>
+                                Klasse 9<br/>
+                                Verschiedene Gefährliche Stoffe
+                            </p>
+                        </div>
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/09b_Dangclass9A.svg">
+                            <p>
+                                Klasse 9a<br/>
+                                Lithium Batterien
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-wrap --h2 --i10 anim --fade --s10">
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/10a_GHS-pictogram-pollu.svg">
+                            <p>
+                                Umwelt&shy;gefährdent
+                            </p>
+                        </div>
+                        <div class="item-wrap">
+                            <img src="/assets/img/UN_Sequenz05/10b_erwaermteStoffe.svg">
+                            <p>
+                                Erwärmte Stoffe
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="arrow --left ">
+                        <div class="arrow-hover-wrap" data-target="--b06">
+                            <img src="/assets/img/Arrow_Left_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b06">
+                    <img src="/assets/img/UN_Seq06_HG.png" alt="background" class="background-img">
+                    <img src="/assets/img/UN_Sequenz06/UN_Seq06_Deutschland.svg" class="map anim --fade --s01">
+                    <p class="text --t1 anim --fade --s02">In</p>
+                    <p class="text --t2 anim --fade --s01">Deutschland</p>
+                    <p class="text --t3 anim --fade --s03">
+                        stellt die BAM (Bundesanstalt für Materialforschung und -prüfung) UN-Zulassungen aus.
+                    </p>
+                    <img src="/assets/img/UN_Sequenz06/UN_Seq06_Pfeil.svg" class="sign anim --enter-from-left --s05">
+                    <p class="sign-text anim --fade --s06">Wir übernehmen die komplette Abwicklung mit den entsprechenden
+                        Prüfstellen und der
+                        BAM für Sie.</p>
+                    <p class="text --t4 anim --fade --s09">Zulassungen sind im Regelfall unbefristet.</p>
+                    <img src="/assets/img/UN_Sequenz06/UN_Seq06_Zulassung.svg" class="picto anim --fade --s09">
+                    <div class="arrow --up ">
+                        <div class="arrow-hover-wrap" data-target="--b07">
+                            <img src="/assets/img/Arrow_Up_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b07">
+                    <img src="/assets/img/UN_Seq07_HG.png" alt="background" class="background-img">
+                    <img src="/assets/img/UN_Sequenz07/UN_Seq07_Verschluss.svg" alt="Verschluss"
+                         class="illu anim --fade --s01">
+                    <img src="/assets/img/UN_Sequenz07/UN_Seq07_info.svg" alt="Verschluss" class="info anim --fade --s02">
+                    <p class="text anim --fade --s02">UN-Zulassung für unsere Produkte sind immer nur in Verbindung mit den
+                        auf dem
+                        Zulassungsschein angegebenen Verschlüssen gültig.</p>
+                    <div class="arrow --left ">
+                        <div class="arrow-hover-wrap" data-target="--b08">
+                            <img src="/assets/img/Arrow_Left_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b08">
+                    <img src="/assets/img/UN_Seq08_HG.png" alt="background" class="background-img">
+                    <h2 class="heading">Es wird zwischen Feststoff- & Flüssigkeitszulassungen unterschieden</h2>
+                    <img src="/assets/img/UN_Sequenz08/UN_Seq08_info.svg" alt="Info" class="info anim --fade --s01">
+                    <p class="text anim --fade --s02">Die Gefahrgut-Schnellinfo der BAM zeigt welche UN-Verpackungsgruppe
+                        für Ihr Füllgut
+                        geeignet ist.</p>
+                    <div class="arrow --down ">
+                        <div class="arrow-hover-wrap" data-target="--b09">
+                            <img src="/assets/img/Arrow_Down_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b09">
+                    <img src="/assets/img/UN_Seq09_HG.png" alt="background" class="background-img">
+                    <h2 class="heading anim --fade --s01">Ein Beispiel für eine eingravierte
+                        Zulassungsnummer für eine<br/>
+                        UN-Flüssigkeitszulassung</h2>
+
+                    <h3 class="subheading custom-anim --fade --s05-s11">Verpackungstyp</h3>
+                    <div class="table --t1 custom-anim --fade --s05-s11">
+                        <div class="table-row">
+                            <span>1</span><span>Behälter/Trommel</span>
+                        </div>
+                        <div class="table-row">
+                            <span>2</span><span>Fass</span>
+                        </div>
+                        <div class="table-row --active">
+                            <span>3</span><span>Kanister</span>
+                        </div>
+                        <div class="table-row">
+                            <span>4</span><span>Box/Kiste/Karton</span>
+                        </div>
+                        <div class="table-row">
+                            <span>5</span><span>Tasche/Sack</span>
+                        </div>
+                        <div class="table-row">
+                            <span>6</span><span>Kombinationsverpackung</span>
+                        </div>
+                        <div class="table-row">
+                            <span>7</span><span>Druckbehälter</span>
+                        </div>
+                    </div>
+
+                    <h3 class="subheading custom-anim --fade --s12-s18">Material</h3>
+                    <div class="table --t2 custom-anim --fade --s12-s18">
+                        <div class="table-row">
+                            <span>A</span> <span>Stahl</span>
+                        </div>
+                        <div class="table-row">
+                            <span>B</span> <span>Aluminium</span>
+                        </div>
+                        <div class="table-row">
+                            <span>C</span> <span>Naturholz</span>
+                        </div>
+                        <div class="table-row">
+                            <span>D</span> <span>Sperrholz</span>
+                        </div>
+                        <div class="table-row">
+                            <span>F</span> <span>Spannholz</span>
+                        </div>
+                        <div class="table-row">
+                            <span>G</span> <span>Pappe</span>
+                        </div>
+                        <div class="table-row --active">
+                            <span>H</span> <span>Kunststoff</span>
+                        </div>
+                        <div class="table-row">
+                            <span>M</span> <span>Papier</span>
+                        </div>
+                        <div class="table-row">
+                            <span>N</span> <span>Metalle (die nicht zu A oder B gehören)</span>
+                        </div>
+                        <div class="table-row">
+                            <span>P</span> <span>Glas</span>
+                        </div>
+                    </div>
+
+                    <h3 class="subheading custom-anim --fade --s19-s25">Verschluss</h3>
+                    <div class="table --t3 custom-anim --fade --s19-s25">
+                        <div class="table-row --active">
+                            <span>1</span><span>Nicht abnehmbar</span>
+                        </div>
+                        <div class="table-row">
+                            <span>2</span><span>Abnehmbar</span>
+                        </div>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s05-s25">
+                        <h3 class="label-text --l1 anim --fade --s07">3 > Kanister</h3>
+                        <h3 class="label-text --l2 anim --fade --s14">H > Kunststoff</h3>
+                        <h3 class="label-text --l3 anim --fade --s21">1 > Nicht abnehmbar</h3>
+                    </div>
+
+                    <h3 class="subheading custom-anim --fade --s26-s36">Verpackungsgruppe</h3>
+                    <div class="table --t4 custom-anim --fade --s26-s36">
+                        <div class="table-row">
+                            <span>X für Stoffe der Klasse I</span><span>Stoffe mit hoher Gefahr</span>
+                        </div>
+                        <div class="table-row --active">
+                            <span>Y für Stoffe der Klasse II</span><span>Stoffe mit mittlerer Gefahr</span>
+                        </div>
+                        <div class="table-row">
+                            <span>Z für Stoffe der Klasse III</span><span>Stoffe mit geringerer Gefahr</span>
+                        </div>
+                    </div>
+                    <div class="label-wrap custom-anim --fade --s26-s36">
+                        <h3 class="label-text --l4 anim --fade --s28">Y > Stoffe mit geringer und mittlerer Gefahr</h3>
+                        <h3 class="label-text --l5 anim --fade --s29">1.9 > Angabe der maximal zulässigen Dichte des
+                            Füllgutes</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s36-s41">
+                        <h3 class="label-text --l6">Prüfdruck der hydraulischen Innendruckprüfung</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s41-s46">
+                        <h3 class="label-text --l7"><span class="color-blue">Baujahr</span><br/>Das hergestellte Gebinde
+                            darf ab Produktionsdatum fünf Jahre als Gefahrgutgebinde verwendet werden.</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s46-s51">
+                        <h3 class="label-text --l8">Land der Zulassungsausstellung</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s51-s56">
+                        <h3 class="label-text --l9">Zulassungsinstitut und Zulassungsscheinnummer</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s56-s61">
+                        <h3 class="label-text --l10">Hersteller und Produktionsstandort</h3>
+                    </div>
+
+
+                    <img src="/assets/img/UN_Sequenz09/UN_Seq09_Kanister_2000095782.png" alt="Kanister"
+                         class="can anim --fade-right --s02">
+                    <img src="/assets/img/UN_Sequenz09/UN_Seq09_Kreis.svg" alt="Circle" class="circle anim --fade --s03">
+                    <img src="/assets/img/UN_Sequenz09/UN_Seq09_Linie.svg" alt="Line" class="line anim --scale-right --s04">
+                    <img src="/assets/img/UN_Sequenz09/UN_Seq09_UN.svg" alt="UN" class="un --n1 anim --fade --s04">
+                    <img src="/assets/img/UN_Sequenz09/UN_Seq09_K_01.svg" alt="K" class="k --n1 anim --fade --s04">
+                    <img src="/assets/img/UN_Sequenz09/UN_Seq09_K_02.svg" alt="K"
+                         class="k --n1 custom-anim --fade --s56-s61">
+                    <div class="nav-text-wrap --n1 anim --fade --s04">
+                        <span class="custom-anim --color --s05-s25">3H1</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s26-s36">Y1.9</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s36-s41">200</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s41-s46">23</span>
+                        <span>/</span>
+                    </div>
+                    <div class="nav-text-wrap --n2 --n1 anim --fade --s04">
+                        <span class="custom-anim --color --s46-s51">D</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s51-s56">BAM 11272</span>
+                    </div>
+
+                    <div class="circle-text --c1 anim --fade --s30">
+                        <p>Eine Y-Zulassung deckt bereits
+                            797 der 874 möglichen Flüssigkeiten ab, die Sie in einer Zulassungsverpackung transportieren
+                            dürfen.<br/>
+                            Nur für 77 spezielle Flüssigkeiten braucht es eine X-Zulassung. Die entsprechende
+                            Assimilierungsliste der BAM
+                            finden Sie <a href="/assets/pdf/ADR_2023_Band_II.pdf" download>hier</a>.</p>
+                    </div>
+
+                    <div class="arrow --right ">
+                        <div class="arrow-hover-wrap" data-target="--b10">
+                            <img src="/assets/img/Arrow_Right_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b10">
+                    <img src="/assets/img/UN_Seq10_HG.png" alt="background" class="background-img">
+                    <h2 class="heading anim --fade --s01">Ein Beispiel für eine eingravierte</br>Zulassungsnummer für
+                        eine<br/>
+                        UN-Feststoffzulassung</h2>
+
+                    <h3 class="subheading custom-anim --fade --s05-s11">Verpackungstyp</h3>
+                    <div class="table --t1 custom-anim --fade --s05-s11">
+                        <div class="table-row">
+                            <span>1</span><span>Behälter/Trommel</span>
+                        </div>
+                        <div class="table-row">
+                            <span>2</span><span>Fass</span>
+                        </div>
+                        <div class="table-row --active">
+                            <span>3</span><span>Kanister</span>
+                        </div>
+                        <div class="table-row">
+                            <span>4</span><span>Box/Kiste/Karton</span>
+                        </div>
+                        <div class="table-row">
+                            <span>5</span><span>Tasche/Sack</span>
+                        </div>
+                        <div class="table-row">
+                            <span>6</span><span>Kombinationsverpackung</span>
+                        </div>
+                        <div class="table-row">
+                            <span>7</span><span>Druckbehälter</span>
+                        </div>
+                    </div>
+
+                    <h3 class="subheading custom-anim --fade --s12-s18">Material</h3>
+                    <div class="table --t2 custom-anim --fade --s12-s18">
+                        <div class="table-row">
+                            <span>A</span> <span>Stahl</span>
+                        </div>
+                        <div class="table-row">
+                            <span>B</span> <span>Aluminium</span>
+                        </div>
+                        <div class="table-row">
+                            <span>C</span> <span>Naturholz</span>
+                        </div>
+                        <div class="table-row">
+                            <span>D</span> <span>Sperrholz</span>
+                        </div>
+                        <div class="table-row">
+                            <span>F</span> <span>Spannholz</span>
+                        </div>
+                        <div class="table-row">
+                            <span>G</span> <span>Pappe</span>
+                        </div>
+                        <div class="table-row --active">
+                            <span>H</span> <span>Kunststoff</span>
+                        </div>
+                        <div class="table-row">
+                            <span>M</span> <span>Papier</span>
+                        </div>
+                        <div class="table-row">
+                            <span>N</span> <span>Metalle (die nicht zu A oder B gehören)</span>
+                        </div>
+                        <div class="table-row">
+                            <span>P</span> <span>Glas</span>
+                        </div>
+                    </div>
+
+                    <h3 class="subheading custom-anim --fade --s19-s25">Verschluss</h3>
+                    <div class="table --t3 custom-anim --fade --s19-s25">
+                        <div class="table-row --active">
+                            <span>1</span><span>Nicht abnehmbar</span>
+                        </div>
+                        <div class="table-row">
+                            <span>2</span><span>Abnehmbar</span>
+                        </div>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s05-s25">
+                        <h3 class="label-text --l1 anim --fade --s07">3 > Kanister</h3>
+                        <h3 class="label-text --l2 anim --fade --s14">H > Kunststoff</h3>
+                        <h3 class="label-text --l3 anim --fade --s21">1 > Nicht abnehmbar</h3>
+                    </div>
+
+                    <h3 class="subheading custom-anim --fade --s26-s36">Verpackungsgruppe</h3>
+                    <div class="table --t4 custom-anim --fade --s26-s36">
+                        <div class="table-row --active">
+                            <span>X für Stoffe der Klasse I</span><span>Stoffe mit hoher Gefahr</span>
+                        </div>
+                        <div class="table-row">
+                            <span>X für Stoffe der Klasse II</span><span>Stoffe mit mittlerer Gefahr</span>
+                        </div>
+                        <div class="table-row">
+                            <span>X für Stoffe der Klasse III</span><span>Stoffe mit geringerer Gefahr</span>
+                        </div>
+                    </div>
+                    <div class="label-wrap custom-anim --fade --s26-s36">
+                        <h3 class="label-text --l4 anim --fade --s28">X > Stoffe mit hoher Gefahr</h3>
+                        <h3 class="label-text --l5 anim --fade --s29">2.5 > Zulässige Bruttomasse in kg,<br/>
+                            inkl. Verpackungsgewicht</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s36-s41">
+                        <h3 class="label-text --l6">S > Solid</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s41-s46">
+                        <h3 class="label-text --l7"><span class="color-blue">Baujahr</span><br/>
+                            <span class="color-white">Das hergestellte Gebinde
+                            darf ab Produktionsdatum fünf Jahre als Gefahrgutgebinde verwendet werden.</span>
+                        </h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s46-s51">
+                        <h3 class="label-text --l8">Land der Zulassungsausstellung</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s51-s56">
+                        <h3 class="label-text --l9">Zulassungsinstitut und Zulassungsscheinnummer</h3>
+                    </div>
+
+                    <div class="label-wrap custom-anim --fade --s56-s61">
+                        <h3 class="label-text --l10">Hersteller und Produktionsstandort</h3>
+                    </div>
+
+
+                    <img src="/assets/img/UN_Sequenz10/UN_Seq10_Flasche.png" alt="Flasche"
+                         class="can anim --fade-up --s02">
+                    <img src="/assets/img/UN_Sequenz10/UN_Seq10_Kreis.svg" alt="Circle" class="circle anim --fade --s03">
+                    <img src="/assets/img/UN_Sequenz10/UN_Seq10_Linie.svg" alt="Line" class="line anim --scale-left --s04">
+                    <img src="/assets/img/UN_Sequenz10/UN_Seq10_UN.svg" alt="UN" class="un --n1 anim --fade --s04">
+                    <img src="/assets/img/UN_Sequenz10/UN_Seq10_K_01.svg" alt="K" class="k --n1 anim --fade --s04">
+                    <img src="/assets/img/UN_Sequenz10/UN_Seq10_K_02.svg" alt="K"
+                         class="k --n1 custom-anim --fade --s56-s61">
+                    <div class="nav-text-wrap --n1 anim --fade --s04">
+                        <span class="custom-anim --color --s05-s25">3H1</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s26-s36">X2.5</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s36-s41">S</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s41-s46">23</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s46-s51">D</span>
+                        <span>/</span>
+                        <span class="custom-anim --color --s51-s56">BAM 6706</span>
+                    </div>
+
+                    <div class="circle-text --c1 anim --fade --s30">
+                        <p>Das Sicherheitsdatenblatt
+                            des jeweiligen Feststoffes enthält Informationen über die Klassifizierung der X, Y oder Z
+                            Gefahrenklasse.</p>
+                    </div>
+
+                    <div class="arrow --down ">
+                        <div class="arrow-hover-wrap" data-target="--b11">
+                            <img src="/assets/img/Arrow_Down_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b11">
+                    <img src="/assets/img/UN_Seq11_HG.png" alt="background" class="background-img">
+
+                    <p class="text --t1 anim --fade --s01">Unsere Flaschen mit <br/><b>UN-Feststoffzulassung</b></p>
+                    <img src="/assets/img/UN_Sequenz11/UN_SeqUN-Weithalsflaschen-Serie-310-HDPE-natur_01.png" alt="Cans"
+                         class="cans --c1 anim --fade-left --s02">
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_WeithalsflaschenSerie310HDPE%20weiss_Gruppe_02.png"
+                         alt="Cans" class="cans --c2 anim --fade-left --s03">
+                    <p class="circle --c1 anim --fade --s04">100 bis<br/>4.000 ml</p>
+
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Agro-Pack_03.png" alt="Cans"
+                         class="cans --c3 anim --fade-left --s05">
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Agro-Pack_04.png" alt="Cans"
+                         class="cans --c4 anim --fade-left --s06">
+                    <p class="circle --c2 anim --fade --s07">150 ml<br/>bis 10 l</p>
+
+                    <p class="text --t3 anim --fade --s08">Unsere Flaschen & Kanister
+                        mit<br/><b>UN-Flüssigkeitszulassung</b>
+                    </p>
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Enghalsflaschen-Serie-308_310-HDPE_05.png" alt="Cans"
+                         class="cans --c5 anim --fade-right --s09">
+                    <p class="circle --c3 anim --fade --s10">500 bis<br/>2.500 ml</p>
+
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Gruppe-Kanister_06.png" alt="Cans"
+                         class="cans --c6 anim --fade-right --s11">
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Kanister_blau_07.png" alt="Cans"
+                         class="cans --c7 anim --fade-right --s12">
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Kanister_blau_08.png" alt="Cans"
+                         class="cans --c8 anim --fade-right --s13">
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Kanister_blau_09.png" alt="Cans"
+                         class="cans --c9 anim --fade-right --s14">
+                    <p class="circle --c4 anim --fade --s15">2,5 bis<br/>30 l</p>
+
+                    <p class="text --t2 anim --hide --s16">Unser UN Flaschen-<br>und Kanister-Sortiment</p>
+                    <p class="circle --c5 anim --fade --s17">Auch im<br/>kundenindividuellen<br/>Design möglich.</p>
+
+                    <div class="arrow --up ">
+                        <div class="arrow-hover-wrap" data-target="--b12">
+                            <img src="/assets/img/Arrow_Up_CoEx.png" alt="Next">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner --b12">
+                    <img src="/assets/img/UN_Seq12_HG.png" alt="background" class="background-img">
+                    <p class="text --t1 anim --fade --s01">Sie sind interessiert an UN Flaschen und Kanistern aus unserem
+                        Sortiment?</p>
+                    <p class="text --t2 anim --fade --s02">Sie haben Fragen rum um das Thema UN-Verpackung?</p>
+                    <img src="/assets/img/UN_Sequenz12/UN_Seq12_Gruppe-Kanister.png" alt="Kanister"
+                         class="cans anim --fade-left --s03">
+                    <h2 class="heading anim --fade --s04">Wir beraten Sie gerne.</h2>
+                </div>
+            </div>
+            <div class="global-elements-wrap" style="display: none">
+                <img src="/assets/img/Kautex_Logo_weiss.svg" alt="Kautex Logo" class="logo">
+            </div>
+        </div>
+        <div class="nav">
+            <p data-target="--b01">1</p>
+            <p data-target="--b02">2</p>
+            <p data-target="--b03">3</p>
+            <p data-target="--b04">4</p>
+            <p data-target="--b05">5</p>
+            <p data-target="--b06">6</p>
+            <p data-target="--b07">7</p>
+            <p data-target="--b08">8</p>
+            <p data-target="--b09">9</p>
+            <p data-target="--b10">10</p>
+            <p data-target="--b11">11</p>
+            <p data-target="--b12">12</p>
+        </div>
+    </div>
+</template>
+
+<div id="BannerUNHost"></div>
+
+<script>
+    // usage of shadow dom to prevent script or styling conflicts with the outer website
+    const unHost = document.querySelector("#BannerUNHost");
+    const unShadow = unHost.attachShadow({mode: "open"});
+    const unTemplate = document.getElementById("BannerCoExTemplate");
+    unShadow.appendChild(unTemplate.content);
+</script>
+<!-- end include banner script on any part of the website -->
+
+</body>
+</html>
