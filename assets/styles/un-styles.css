@@ -196,6 +196,18 @@
   animation-delay: 13.1s;
   animation-fill-mode: forwards;
 }
+.visible .custom-anim.--color.--s26-s41 {
+  animation-name: color-duration-10;
+  animation-duration: 9.5s;
+  animation-delay: 13.1s;
+  animation-fill-mode: forwards;
+}
+.visible .custom-anim.--fade.--s26-s41 {
+  animation-name: fade-duration-10;
+  animation-duration: 9.5s;
+  animation-delay: 13.1s;
+  animation-fill-mode: forwards;
+}
 .visible .custom-anim.--fade.--s36-s41 {
   animation-name: fade-duration-10;
   animation-duration: 2.5s;
@@ -254,6 +266,18 @@
   animation-name: color-duration-10;
   animation-duration: 2.5s;
   animation-delay: 32.6s;
+  animation-fill-mode: forwards;
+}
+.visible .custom-anim.--color.--s61-s66 {
+  animation-name: color-duration-10;
+  animation-duration: 2.5s;
+  animation-delay: 35.1s;
+  animation-fill-mode: forwards;
+}
+.visible .custom-anim.--fade.--s61-s66 {
+  animation-name: fade-duration-10;
+  animation-duration: 2.5s;
+  animation-delay: 35.1s;
   animation-fill-mode: forwards;
 }
 
@@ -1010,12 +1034,17 @@
 }
 .--b09 .table .table-row > span {
   min-width: 15%;
+  flex-shrink: 0;
 }
 .--b09 .table.--t4 .table-row > span {
   min-width: 50%;
 }
 .--b09 .table.--t4 {
   min-width: 45%;
+}
+.--b09 .table.--t4.--more-space {
+  left: 43.5%;
+  font-size: 1.15em;
 }
 .--b09 .table.--t2 {
   min-width: 35%;
@@ -1128,6 +1157,7 @@
 }
 .--b10 .table .table-row > span {
   min-width: 15%;
+  flex-shrink: 0;
 }
 .--b10 .table.--t4 .table-row > span {
   min-width: 50%;

@@ -212,6 +212,19 @@
     animation-fill-mode: forwards;
   }
 
+  &.--color.--s26-s41 {
+    animation-name: color-duration-10;
+    animation-duration: 9.5s;
+    animation-delay: 13.1s;
+    animation-fill-mode: forwards;
+  }
+  &.--fade.--s26-s41 {
+    animation-name: fade-duration-10;
+    animation-duration: 9.5s;
+    animation-delay: 13.1s;
+    animation-fill-mode: forwards;
+  }
+
   &.--fade.--s36-s41 {
     animation-name: fade-duration-10;
     animation-duration: 2.5s;
@@ -274,6 +287,19 @@
     animation-name: color-duration-10;
     animation-duration: 2.5s;
     animation-delay: 32.6s;
+    animation-fill-mode: forwards;
+  }
+
+  &.--color.--s61-s66 {
+    animation-name: color-duration-10;
+    animation-duration: 2.5s;
+    animation-delay: 35.1s;
+    animation-fill-mode: forwards;
+  }
+  &.--fade.--s61-s66 {
+    animation-name: fade-duration-10;
+    animation-duration: 2.5s;
+    animation-delay: 35.1s;
     animation-fill-mode: forwards;
   }
 }
@@ -1167,6 +1193,7 @@
 
       & > span {
         min-width: 15%;
+        flex-shrink: 0;
       }
     }
     &.--t4 .table-row > span {
@@ -1174,6 +1201,11 @@
     }
     &.--t4 {
       min-width: 45%;
+
+      &.--more-space {
+        left: 43.5%;
+        font-size: 1.15em;
+      }
     }
     &.--t2 {
       min-width: 35%;
@@ -1291,6 +1323,7 @@
 
       & > span {
         min-width: 15%;
+        flex-shrink: 0;
       }
     }
     &.--t4 .table-row > span {
