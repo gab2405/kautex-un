@@ -10,8 +10,8 @@
 <!-- start include banner script on any part of the website -->
 
 <template id="BannerCoExTemplate">
-    <link rel="stylesheet" href="/assets/styles/un-styles.css?v20231223">
-    <script src="/assets/scripts/un-scripts.js" type="module" defer></script>
+    <link rel="stylesheet" href="/assets/styles/un-styles.css?v20240117">
+    <script src="/assets/scripts/un-scripts.js?v20240117" type="module" defer></script>
     <link rel="preload" as="image" href="/assets/img/UN_Seq01_HG.png">
     <link rel="preload" as="image" href="/assets/img/UN_Seq02_HG.png">
     <link rel="preload" as="image" href="/assets/img/UN_Seq03_HG.png">
@@ -59,8 +59,10 @@
                 <div class="banner --b03">
                     <img src="/assets/img/UN_Seq03_HG.png" alt="background" class="background-img">
                     <h2 class="heading anim --fade --s01">
-                        UN-Zulassungen regeln<br/>
-                        den länderübergreifenden Transport von Gefahrgütern.
+                        UN-Zulassungen regeln den inländischen<br/>
+                        und länderübergreifenden Transport<br/>
+                        von Gefahrgütern.
+
                     </h2>
                     <img src="/assets/img/UN_Sequenz03/UN_Seq03_LKW.svg" alt="truck"
                          class="truck anim --enter-from-left --s02">
@@ -281,7 +283,7 @@
                 </div>
                 <div class="banner --b07">
                     <img src="/assets/img/UN_Seq07_HG.png" alt="background" class="background-img">
-                    <img src="/assets/img/UN_Sequenz07/UN_Seq07_Verschluss.svg" alt="Verschluss"
+                    <img src="/assets/img/UN_Sequenz07/UN_Seq07_Verschlussb.svg" alt="Verschluss"
                          class="illu anim --fade --s01">
                     <img src="/assets/img/UN_Sequenz07/UN_Seq07_info.svg" alt="Verschluss"
                          class="info anim --fade --s02">
@@ -298,13 +300,13 @@
                 </div>
                 <div class="banner --b08">
                     <img src="/assets/img/UN_Seq08_HG.png" alt="background" class="background-img">
-                    <h2 class="heading">Es wird zwischen Feststoff- & Flüssigkeitszulassungen unterschieden</h2>
+                    <h2 class="heading">Man unterscheidet zwischen
+                        UN-Zulassungen für
+                        feste und flüssige Stoffe
+                    </h2>
                     <img src="/assets/img/UN_Sequenz08/UN_Seq08_info.svg" alt="Info" class="info anim --fade --s01">
-                    <p class="text anim --fade --s02">Die <a href="https://www.dgg.bam.de/quickinfo/" target="_blank">Gefahrgut-Schnellinfo
-                        der BAM</a> zeigt welche
-                        UN-Verpackungsgruppe
-                        für Ihr Füllgut
-                        geeignet ist.</p>
+                    <p class="text anim --fade --s02"><a href="https://www.dgg.bam.de/quickinfo/" target="_blank">Die Gefahrgut-Schnellinfo
+                        der BAM</a> zeigt u.a. welche UN-Verpackungsgruppe für Ihr Füllgut vorgeschrieben ist.</p>
                     <div class="arrow --down ">
                         <div class="arrow-hover-wrap" data-target="--b09">
                             <img src="/assets/img/Arrow_Down_CoEx.png" alt="Next">
@@ -385,11 +387,14 @@
                             <span>2</span><span>Abnehmbar</span>
                         </div>
                     </div>
+                    <p class="sidenote custom-anim --fade --s19-s25">
+                        * „Nicht abnehmbar“ nach ADR Definition, Verschluss kann aufgedreht werden
+                    </p>
 
                     <div class="label-wrap custom-anim --fade --s05-s25">
-                        <h3 class="label-text --l1 anim --fade --s07">3 > Kanister</h3>
-                        <h3 class="label-text --l2 anim --fade --s14">H > Kunststoff</h3>
-                        <h3 class="label-text --l3 anim --fade --s21">1 > Nicht abnehmbar</h3>
+                        <h3 class="label-text --l1 anim --fade --s07">3 • Kanister</h3>
+                        <h3 class="label-text --l2 anim --fade --s14">H • Kunststoff</h3>
+                        <h3 class="label-text --l3 anim --fade --s21">1 • Nicht abnehmbar</h3>
                     </div>
 
                     <h3 class="subheading custom-anim --fade --s26-s41">Verpackungsgruppe</h3>
@@ -404,13 +409,13 @@
                             <span>Z für Stoffe der Klasse III</span><span>Stoffe mit geringerer Gefahr</span>
                         </div>
                     </div>
-                    <div class="label-wrap custom-anim --fade --s26-s36">
-                        <h3 class="label-text --l4 anim --fade --s28">Y > Stoffe mit geringer und mittlerer Gefahr</h3>
-                        <h3 class="label-text --l5 anim --fade --s29">1.9 > Angabe der maximal zulässigen Dichte des
+                    <div class="label-wrap custom-anim --fade --s26-s34">
+                        <h3 class="label-text --l4 anim --fade --s28">Y • Stoffe mit geringer und mittlerer Gefahr</h3>
+                        <h3 class="label-text --l5 anim --fade --s29">1.9 • Angabe der maximal zulässigen Dichte des
                             Füllgutes</h3>
                     </div>
-                    <div class="label-wrap custom-anim --fade --s36-s41">
-                        <h3 class="label-text">Kautex UN-Verpackungen sind für die Verpackungsklassen X, Y und Z zugelassen</h3>
+                    <div class="label-wrap custom-anim --fade --s34-s41">
+                        <h3 class="label-text">Kautex UN-Verpackungen sind für die Verpackungsklassen X, Y oder Z zugelassen</h3>
                     </div>
 
                     <div class="label-wrap custom-anim --fade --s41-s46">
@@ -462,7 +467,7 @@
                         <span class="custom-anim --color --s56-s61">BAM 11272</span>
                     </div>
 
-                    <div class="circle-text --c1 anim --fade --s30">
+                    <div class="circle-text --c1 anim --fade --s37">
                         <p>Eine Y-Zulassung deckt bereits
                             797 der 874 möglichen Flüssigkeiten ab, die Sie in einer Zulassungsverpackung transportieren
                             dürfen.<br/>
@@ -553,9 +558,9 @@
                     </div>
 
                     <div class="label-wrap custom-anim --fade --s05-s25">
-                        <h3 class="label-text --l1 anim --fade --s07">3 > Kanister</h3>
-                        <h3 class="label-text --l2 anim --fade --s14">H > Kunststoff</h3>
-                        <h3 class="label-text --l3 anim --fade --s21">1 > Nicht abnehmbar</h3>
+                        <h3 class="label-text --l1 anim --fade --s07">3 • Kanister</h3>
+                        <h3 class="label-text --l2 anim --fade --s14">H • Kunststoff</h3>
+                        <h3 class="label-text --l3 anim --fade --s21">1 • Nicht abnehmbar</h3>
                     </div>
 
                     <h3 class="subheading custom-anim --fade --s26-s36">Verpackungsgruppe</h3>
@@ -571,13 +576,13 @@
                         </div>
                     </div>
                     <div class="label-wrap custom-anim --fade --s26-s36">
-                        <h3 class="label-text --l4 anim --fade --s28">X > Stoffe mit hoher Gefahr</h3>
-                        <h3 class="label-text --l5 anim --fade --s29">2.5 > Zulässige Bruttomasse in kg,<br/>
+                        <h3 class="label-text --l4 anim --fade --s28">X • Stoffe mit hoher Gefahr</h3>
+                        <h3 class="label-text --l5 anim --fade --s29">2.5 • Zulässige Bruttomasse in kg,<br/>
                             inkl. Verpackungsgewicht</h3>
                     </div>
 
                     <div class="label-wrap custom-anim --fade --s36-s41">
-                        <h3 class="label-text --l6">S > Solid</h3>
+                        <h3 class="label-text --l6">S • Solid</h3>
                     </div>
 
                     <div class="label-wrap custom-anim --fade --s41-s46">
@@ -624,7 +629,7 @@
                         <span class="custom-anim --color --s51-s56">BAM 6706</span>
                     </div>
 
-                    <div class="circle-text --c1 anim --fade --s30">
+                    <div class="circle-text --c1 anim --fade --s34">
                         <p>Das Sicherheitsdatenblatt
                             des jeweiligen Feststoffes enthält Informationen über die Klassifizierung der X, Y oder Z
                             Gefahrenklasse.</p>
@@ -646,27 +651,33 @@
                          alt="Cans" class="cans --c2 anim --fade-left --s03">
                     <p class="circle --c1 anim --fade --s04">100 bis<br/>4.000 ml</p>
 
-                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Agro-Pack_03.png" alt="Cans"
-                         class="cans --c3 anim --fade-left --s05">
-                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Agro-Pack_04.png" alt="Cans"
-                         class="cans --c4 anim --fade-left --s06">
-                    <p class="circle --c2 anim --fade --s07">150 ml<br/>bis 10 l</p>
 
-                    <p class="text --t3 anim --fade --s08">Unsere Flaschen & Kanister
+
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Agro-Pack_03.png" alt="Cans"
+                         class="cans --c3 anim --fade-left --s08">
+                    <img src="/assets/img/UN_Sequenz11/UN_Seq11_Agro-Pack_04.png" alt="Cans"
+                         class="cans --c4 anim --fade-left --s08">
+                    <p class="circle --c2 anim --fade --s09">150 ml<br/>bis 20 l</p>
+
+                    <p class="text --t3 anim --fade --s05">Unsere Flaschen & Kanister
                         mit<br/><b>UN-Flüssigkeitszulassung</b>
                     </p>
                     <img src="/assets/img/UN_Sequenz11/UN_Seq11_Enghalsflaschen-Serie-308_310-HDPE_05.png" alt="Cans"
-                         class="cans --c5 anim --fade-right --s09">
-                    <p class="circle --c3 anim --fade --s10">500 bis<br/>2.500 ml</p>
+                         class="cans --c5 anim --fade-right --s06">
+                    <p class="circle --c3 anim --fade --s07">500 bis<br/>2.500 ml</p>
 
                     <img src="/assets/img/UN_Sequenz11/UN_Seq11_Gruppe-Kanister_06.png" alt="Cans"
-                         class="cans --c6 anim --fade-right --s11">
+                         class="cans --c6 anim --fade-right --s10">
                     <img src="/assets/img/UN_Sequenz11/UN_Seq11_Kanister_blau_07.png" alt="Cans"
                          class="cans --c7 anim --fade-right --s12">
                     <img src="/assets/img/UN_Sequenz11/UN_Seq11_Kanister_blau_08.png" alt="Cans"
                          class="cans --c8 anim --fade-right --s13">
                     <img src="/assets/img/UN_Sequenz11/UN_Seq11_Kanister_blau_09.png" alt="Cans"
                          class="cans --c9 anim --fade-right --s14">
+                    <img src="/assets/img/20L-A-Serie1.png" alt="Cans"
+                         class="cans --c10 anim --fade-right --s11">
+                    <img src="/assets/img/CoEx_Kanister04.png" alt="Cans"
+                         class="cans --c11 anim --fade-right --s11">
                     <p class="circle --c4 anim --fade --s15">2,5 bis<br/>30 l</p>
 
                     <p class="text --t2 anim --hide --s16">Unser UN Flaschen-<br>und Kanister-Sortiment</p>
@@ -680,10 +691,12 @@
                 </div>
                 <div class="banner --b12">
                     <img src="/assets/img/UN_Seq12_HG.png" alt="background" class="background-img">
-                    <p class="text --t1 anim --fade --s01">Sie sind interessiert an UN Flaschen und Kanistern aus
-                        unserem
-                        Sortiment?</p>
-                    <p class="text --t2 anim --fade --s02">Sie haben Fragen rum um das Thema UN-Verpackung?</p>
+                    <p class="text --t1 anim --fade --s01">Sie sind interessiert an UN-zugelassenen Flaschen<br />
+                        und Kanistern aus unserem Sortiment?
+                    </p>
+                    <p class="text --t2 anim --fade --s02">Sie haben Fragen rund um das Thema<br/>
+                        UN-Verpackung?
+                    </p>
                     <img src="/assets/img/UN_Sequenz12/UN_Seq12_Gruppe-Kanisterb.png" alt="Kanister"
                          class="cans anim --fade-left --s03">
                     <h2 class="heading anim --fade --s04">Wir beraten Sie gerne.</h2>
@@ -694,7 +707,7 @@
             </div>
         </div>
         <div class="nav">
-            <p data-target="--b01">1</p>
+            <p data-target="--b01" class="active">1</p>
             <p data-target="--b02">2</p>
             <p data-target="--b03">3</p>
             <p data-target="--b04">4</p>
@@ -706,6 +719,9 @@
             <p data-target="--b10">10</p>
             <p data-target="--b11">11</p>
             <p data-target="--b12">12</p>
+            <a href="/de/verpackung/un-ratgeber" style="margin-left: auto" class="active">DE</a>
+            <a href="/en/packaging/un-guide">EN</a>
+            <a href="/en/packaging/guide-pratique-relatifs-un-packaging">FR</a>
         </div>
     </div>
 </template>
